@@ -1,7 +1,19 @@
-h1 {
-    font: 20px 'Times New Roman';
+body {
+  background: purple;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-p {
-    font: 10px/1.8em Consolas;
+.flex-container {
+  
+  max-width: 70%;
+  background: blue;
+}
+
+.flex-item {
+  background: white;
+  margin: 0 auto;
 }
