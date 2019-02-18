@@ -11,6 +11,11 @@ body {
   padding-top: 3%;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -147,7 +152,10 @@ img {
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  padding: 2%;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 2% 0;
+  vertical-align: center;
 }
 .links ul li {
   font-size: 30px;
